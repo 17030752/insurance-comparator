@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <center><h1 class="tittle">comparador de seguros de hogar</h1></center>
+    <center>
+        <div class="square">
+            <a href="">¿Que tipo de casa tienes?</a>
+        <br>
+        <select name="tipoDeCasa" id="tipoDeCasa" class="myButton">
+            <option value="1">Piso</option>
+            <option value="2">Duplex</option>
+            <option value="2">Chalet</option>
+            <option value="1">Estudio</option>
+        </select>
+        <br>
+        <a href="">¿Pago mensual o anual?</a>
+        <br>
+        <select name="tipoDePago" id="tipoDePago" class="myButton">
+            <option value="3">Mensual</option>
+            <option value="1">Anual</option>
+        </select>
+        </div>
+        <br>
+        <a style="color: black; font-weight: bold;">correo electronico:</a>
+        <br>
+        <input type="text" id="mail" name="mail" class="css-input">
+        <input type="submit" id="btn" class="myButton" value="comparar seguros" onclick="return comparar()">
+    </center>
+    <script src="main.js"></script>
+</body>
+</html>
